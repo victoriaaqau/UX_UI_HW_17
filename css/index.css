@@ -1,0 +1,261 @@
+.header {
+    height:50px;
+    width: 100%;
+    background-color: white;
+    display:block;
+    }
+
+#logo {
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    position: relative;
+    top: 10px;
+    left: 50px;
+}
+
+.nav {
+    width: 33%;
+    float: right;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-right: 60px;
+}
+
+
+.nav p {
+    align-items: center;
+    text-align: center;
+}
+
+.heroImg {
+    min-height: 500px;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1;
+
+    grid-template-areas: "mainhero herotext";
+}
+
+.mainhero {
+    grid-area:mainhero;
+    background-image: url("../images/heroimg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+.herotext {
+    grid-area: herotext;
+    padding: 20px;
+    display:flex;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
+button {
+    border: none;
+    color: white;
+    background-color: #064d0d;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2 px;
+}
+
+.herotext h2 {
+    color:#B60000;
+}
+
+.portfolio {
+    background-image: url("../images/portfolio\ bkg.png");
+    background-repeat: no-repeat;
+}
+
+.portfolio h1{
+        margin: 0 12.5%;
+
+}
+
+.cardContain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portcard {
+    width: 75%;
+    height: 300px;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1;
+    grid-template-areas: "portimage1 port1text";   
+}
+
+.portimage1 {
+    grid-area: portimage1;
+    background-image: url("../images/gladdaymock.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.port1text {
+    display:grid;
+    grid-template-columns: 1;
+    grid-template-rows: 260px 40px;
+
+    grid-template-areas: 
+    "portcardorg"
+    "cardbutton";
+}
+
+.lightbulbicon {
+    background: url("../images/lightbulb.png");
+    height: 20px;
+    width: 20px;
+    display:inline-block;
+    background-size: contain;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.portcardorg {
+    padding: 15px; 
+    grid-area: portcardorg;
+}
+
+.cardbutton {
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    grid-area: cardbutton;
+}
+
+.maincontact {
+    margin: 0 12.5%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 1;
+    grid-template-areas: "contactform mailbox";
+    column-gap: 5%;
+}
+
+.contactform {
+    grid-area: contactform;
+}
+
+#contactformonly {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5fr;
+    column-gap: 10px;
+}
+
+.mailbox {
+    grid-area: mailbox;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+
+.boxpng {
+    width: 180px;
+    height: 180x;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: block;
+    margin: 10px auto;
+   }
+
+.mailbox h3 {
+    text-align: center;
+   }
+
+.boxandicons {
+    width: 350px;
+    text-align: left;
+    background-color:thistle;
+}
+
+.boxandicons p{
+    padding-bottom: 10px;
+}
+
+input {
+   padding: 15px;
+   margin: 5px 0 22px 0;
+   border:none;
+   background: #f1f1f1;
+}
+
+#fname {
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+#lname {
+    grid-row: 1/2;
+    grid-column: 2/3 ;
+}
+
+#email {
+    grid-row: 2/3;
+    grid-column: 1/3 ;
+}
+
+#message {
+    grid-row: 3/6;
+    grid-column: 1/3 ;
+}
+
+.contactform button{
+    float:right;
+    margin: 10px;
+}
+
+.wholefooter {
+    background-image: url("../images/footer\ bkg.png");
+    display:block;
+}
+
+.footerrow1 {
+    display: flex;
+   justify-content: flex-end;
+}
+
+.aboutfooter{
+    display:inline-block;
+}
+
+.connectfooter {
+    display: inline-block;
+}
+
+footer h3, footer p {
+    color: white;
+}
+
+.aboutfooter button {
+    border: none;
+    color: black;
+    background-color:white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 21px;
+    margin: 4px 2 px;
+}
+
+.footerrow2 {
+    display:block;
+    text-align:center;
+}
