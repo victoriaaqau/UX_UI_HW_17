@@ -107,6 +107,7 @@ button {
     background-size:contain;
     padding-top: 300px;
     padding-botton: 200px;
+    display: block;
 }
 
 .portfolio h1{
