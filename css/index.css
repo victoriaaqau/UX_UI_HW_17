@@ -259,3 +259,67 @@ footer h3, footer p {
     display:block;
     text-align:center;
 }
+
+
+.aboutheroImg {
+    min-height: 500px;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1;
+
+    grid-template-areas: "abouthero aboutherotext";
+}
+
+.abouthero {
+    grid-area:abouthero;
+    background-image: url("../images/heroimg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+}
+
+.aboutherotext {
+    grid-area: aboutherotext;
+    padding: 20px;
+    display:flex;
+    align-items: flex-end;
+    margin-bottom: 40px;
+}
+
+.skillsgrid {
+    min-height: 300px;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1;
+
+    grid-template-areas: "skill1 skill2 skill3";
+}
+
+.skillblock{
+    display:flex;
+    padding: 8px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skill1 {
+ grid-area: skill1;  
+}
+
+.skill2 {
+    grid-area: skill2;  
+   }
+
+.skill3 {
+    grid-area: skill3;  
+   }
+
+.skillstyle {
+    height:  50px;
+    width: 50px;
+}
+
+
