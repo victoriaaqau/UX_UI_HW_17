@@ -73,8 +73,7 @@ p {
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 50px;
-    height: 1100px;
-    width:100%;
+   width: 100%;
 }
 
 .herotext {
@@ -104,6 +103,11 @@ button {
 .portfolio {
     background-image: url("../images/portfolio\ bkg.png");
     background-repeat: no-repeat;
+    height: 1100px;
+    width:100%;
+    background-size:contain;
+    padding-top: 300px;
+    padding-botton: 200px;
 }
 
 .portfolio h1{
