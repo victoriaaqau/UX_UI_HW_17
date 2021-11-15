@@ -212,8 +212,7 @@ button {
 .boxandicons {
     width: 350px;
     text-align: left;
-    background-color:thistle;
-}
+    }
 
 .boxandicons p{
     padding-bottom: 10px;
@@ -263,10 +262,12 @@ input {
 
 .aboutfooter{
     display:inline-block;
+    margin: 15px;
 }
 
 .connectfooter {
     display: inline-block;
+    margin: 15px;
 }
 
 footer h3, footer p {
@@ -288,6 +289,7 @@ footer h3, footer p {
 .footerrow2 {
     display:block;
     text-align:center;
+    padding: 30px;
 }
 
 
