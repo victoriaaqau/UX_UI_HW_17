@@ -73,6 +73,8 @@ p {
     background-size: contain;
     background-repeat: no-repeat;
     margin-top: 50px;
+    height: 1100px;
+    width:100%;
 }
 
 .herotext {
