@@ -59,6 +59,7 @@ p {
 .heroImg {
     min-height: 500px;
     height: 70vh;
+    width: 100%;
     display: grid;
     grid-template-columns: 50% 50%;
     grid-template-rows: 1;
