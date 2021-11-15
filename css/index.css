@@ -105,8 +105,8 @@ button {
     height: 1100px;
     width:100%;
     background-size:contain;
-    padding-top: 300px;
-    padding-botton: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     display: block;
 }
 
@@ -260,7 +260,7 @@ input {
     background-image: url("../images/footer\ bkg.png");
     display:block;
     width: 100%;
-    padding: 45px;
+    padding: 30px;
 }
 
 .footerrow1 {
@@ -297,7 +297,7 @@ footer h3, footer p {
 .footerrow2 {
     display:block;
     text-align:center;
-    padding: 30px;
+    padding: 10px;
 }
 
 
