@@ -257,6 +257,8 @@ input {
 .wholefooter {
     background-image: url("../images/footer\ bkg.png");
     display:block;
+    width: 100%;
+    padding: 45px;
 }
 
 .footerrow1 {
