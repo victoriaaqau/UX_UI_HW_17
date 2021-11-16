@@ -222,6 +222,9 @@ button {
 
 .boxandicons p{
     padding-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 input {
@@ -278,7 +281,7 @@ input {
     margin: 15px;
 }
 
-footer h3, footer p {
+footer h4, footer p {
     color: white;
 }
 
